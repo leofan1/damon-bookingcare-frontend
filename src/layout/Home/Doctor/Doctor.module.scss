@@ -1,0 +1,89 @@
+.doctor {
+    width: 100%;
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+    .custom {
+    }
+}
+
+.header {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    button {
+        height: 37px;
+        padding: 5px 15px;
+        border: none;
+        background: #ebebeb;
+        font-size: 11px;
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 10px 15px;
+        color: #282e41;
+
+        &:hover {
+            cursor: pointer;
+            color: #fff;
+            background: #f7d800;
+        }
+    }
+}
+
+.headerTitle {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 2.4rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.itemContainer {
+    padding-left: 5px;
+    padding-right: 5px;
+
+    .item {
+        height: 200px;
+        border: 1px solid black;
+    }
+}
+
+// =====  Slide CSS =====
+
+.slide-container-custom {
+    height: 250px !important;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.slide-child-custom {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    div {
+        border: 1px solid #000;
+        padding-top: 15px;
+    }
+}
+
+.slide-image-custom {
+    display: block;
+    width: 150px !important;
+    height: 150px !important;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.slide-text-custom {
+    padding-top: 20px;
+    text-align: center !important;
+}
+
+.slide-btnleft-custom {
+}
+
+.slide-btnright-custom {
+}

@@ -1,0 +1,170 @@
+.specialty-manager {
+    position: relative;
+    margin-top: 58px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+
+.custom {
+    h1 {
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+    > label {
+        margin-top: 30px;
+        margin-bottom: 5px;
+        font-size: 1.6rem;
+        font-weight: 600;
+        opacity: 0.7;
+    }
+
+    button {
+        position: relative;
+        margin-top: 15px;
+    }
+}
+
+.left-50-container {
+    width: 50%;
+
+    .input-fill {
+        input {
+            height: 37px;
+        }
+    }
+
+    div {
+        label {
+            margin-top: 20px;
+            font-weight: 600;
+            color: rgba(0, 0, 0, 0.7);
+        }
+
+        input {
+            width: 100%;
+            padding: 5px 5px;
+            font-size: 1.5rem;
+            line-height: 1.5;
+            border-radius: 2px;
+            border: 1px solid hsl(0, 0%, 80%);
+
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+    .clinic-select {
+        > div {
+            > div {
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+.img-load {
+    label {
+        margin-top: 25px;
+        margin-bottom: 10px;
+        background-color: #cccccc;
+        padding: 3px 10px;
+        border-radius: 2px;
+
+        &:hover {
+            cursor: pointer;
+            opacity: 0.8;
+        }
+    }
+
+    span {
+        margin-left: 10px;
+    }
+}
+
+.img-layout {
+    height: 270px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 2px;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn-custom {
+    &:focus {
+        box-shadow: 0 0 0 0 transparent !important;
+        background-color: #007bff !important;
+    }
+}
+
+.table {
+    margin-top: 50px;
+    border-spacing: 0;
+    font-size: 1.4rem;
+
+    width: 100%;
+    color: #212529;
+    // border: 1px solid #dee2e6;
+
+    text-align: left;
+
+    tr {
+        display: flex;
+        flex-shrink: 0;
+    }
+
+    th,
+    td {
+        padding: 1.2rem 0.7rem;
+        width: 30%;
+    }
+
+    .name {
+        width: 70% !important;
+    }
+
+    td.name {
+        border-left: 1px solid #dee2e6;
+    }
+
+    th.action {
+        padding-left: 37px;
+    }
+
+    td.action {
+        border-right: 1px solid #dee2e6;
+    }
+
+    th {
+        border-top: 1px solid #dee2e6;
+        border-bottom: 2px solid #dee2e6;
+        background-color: #04aa6d;
+        color: #fff;
+    }
+    th + th {
+        border-left: 1px solid #dee2e6;
+    }
+
+    td {
+        border-bottom: 1px solid #dee2e6;
+    }
+
+    td + td {
+        border-left: 1px solid #dee2e6;
+    }
+
+    .action {
+        span {
+            margin-left: 20px;
+            padding: 10px;
+            cursor: pointer;
+            &:hover {
+                color: orange;
+            }
+        }
+    }
+}

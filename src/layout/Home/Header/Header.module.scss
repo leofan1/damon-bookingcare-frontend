@@ -1,0 +1,162 @@
+.header {
+    width: 100%;
+    padding: 10px 0;
+    background: #fff;
+
+    .custom {
+        display: flex;
+        height: 57px;
+        // justify-content: space-between;
+        align-items: center;
+    }
+    .left {
+        display: flex;
+        padding-bottom: 9px;
+        margin-right: 50px;
+    }
+
+    &.header-blue {
+        background: #45c3d2 !important;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        .left {
+            cursor: pointer;
+
+            .home {
+                color: #ffc419;
+                font-size: 2.4rem;
+                font-size: 4rem;
+
+                &:hover {
+                    opacity: 0.9;
+                }
+            }
+        }
+
+        .navbar {
+            .navbarItem {
+                color: #fff !important;
+                h4 {
+                    color: #fff !important;
+                }
+
+                &:hover {
+                    color: #ffc419 !important;
+                    h4 {
+                        color: #ffc419 !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.menu {
+    font-size: 2.4rem;
+    line-height: 1.5;
+    margin-right: 10px;
+}
+
+.logo {
+    width: 160px;
+    height: 40px;
+}
+
+.navbar {
+    display: flex;
+    .navbarItem {
+        margin-right: 50px;
+        padding-top: 6px;
+        cursor: pointer;
+
+        &:hover {
+            color: #ffc419;
+            h4 {
+                color: #ffc419;
+            }
+        }
+
+        .title {
+            color: #333;
+            font-weight: bold;
+            font-size: 1.4rem;
+            margin-bottom: 3px;
+        }
+
+        .desc {
+            font-weight: lighter;
+            font-size: 1.3rem;
+            display: block;
+        }
+    }
+}
+
+.admin {
+    display: flex;
+    column-gap: 10px;
+    margin-left: auto;
+}
+
+.lang-vn {
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.lang-en {
+    cursor: pointer;
+}
+
+.active-color {
+    color: #ffc419;
+}
+
+.menu-hightlight {
+    color: #ffc419 !important;
+}
+
+.authen-btn {
+    position: relative;
+    color: #ccc;
+    text-align: right;
+    padding-right: 23px;
+    font-weight: 900;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.7;
+    }
+
+    .admin-icon {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        font-size: 1.8rem;
+    }
+}
+
+.authen-btn-home {
+    color: rgba(255, 255, 255, 0.6) !important;
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.active {
+    color: #ffc419 !important;
+
+    &:hover {
+        opacity: 0.7 !important;
+    }
+}
+
+.header-blue {
+    .active {
+        color: #fff04b !important;
+
+        &:hover {
+            opacity: 0.9 !important;
+        }
+    }
+}

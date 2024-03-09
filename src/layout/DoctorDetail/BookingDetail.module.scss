@@ -1,0 +1,78 @@
+.booking-detail-wrapper {
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+.booking-detail-section {
+    h4 {
+        display: inline-block;
+    }
+
+    > p {
+        margin-bottom: 2px;
+    }
+
+    .view-detail {
+        padding: 5px;
+        color: var(--mau-bc-16);
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .hide-detail {
+        color: var(--mau-bc-16);
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.pdb-custom {
+    padding-bottom: 10px;
+}
+
+.booking-detail-section + .booking-detail-section {
+    padding-top: 14px;
+    border-top: 1px solid #ccc;
+}
+
+.view-show-hide {
+    display: flex;
+}
+
+.insurance-detail,
+.payment-detail {
+    p {
+        border-top: 1px solid #ddd;
+        border-left: 1px solid #ddd;
+        border-right: 1px solid #ddd;
+        padding: 3px;
+        background: #f8f8f8;
+        text-align: justify;
+
+        margin-bottom: 0;
+
+        span {
+            font-size: 1.45rem;
+            font-weight: 500;
+            opacity: 0.8;
+        }
+    }
+
+    p + p {
+        border-bottom: 1px solid #ddd;
+    }
+
+    > span {
+        display: inline-block;
+        margin-top: 4px;
+        margin-bottom: 10px;
+    }
+}
+
+.insurance-detail {
+    > span {
+        margin-bottom: 0px;
+    }
+}

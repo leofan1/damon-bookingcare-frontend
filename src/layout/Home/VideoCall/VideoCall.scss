@@ -1,0 +1,95 @@
+// =========  Carousel Custom  =========
+
+#videoCall {
+    .slick-slider {
+        --gap50: 4px;
+        margin-right: calc(-1 * var(--gap50));
+        margin-left: calc(-1 * var(--gap50));
+
+        .video-slider {
+            padding-left: var(--gap50);
+            padding-right: calc(var(--gap50));
+
+            > div {
+                position: relative;
+                width: 100%;
+                height: 100%;
+                text-align: center;
+                cursor: pointer;
+
+                &:hover {
+                    color: #45c3d2;
+                }
+
+                img {
+                    margin-left: auto;
+                    margin-right: auto;
+                    width: 100%;
+                    height: 158px;
+                    object-fit: cover;
+                    object-position: center;
+                }
+
+                p {
+                    margin-top: 5px;
+                    margin-bottom: 0;
+                    text-align: left;
+                    font-size: 1.45rem;
+                }
+            }
+        }
+
+        --btn-move: -25px;
+        .slick-prev {
+            left: var(--btn-move);
+        }
+        .slick-next {
+            right: var(--btn-move);
+        }
+
+        .slick-prev,
+        .slick-next {
+            top: 79px;
+            z-index: 50;
+            width: 44px;
+            height: 48px;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            background: transparent;
+            color: transparent;
+            opacity: 0.7;
+            &:hover {
+                opacity: 1;
+            }
+
+            &::before {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                box-sizing: border-box;
+                font-family: FontAwesome;
+                line-height: 44px;
+                font-size: 30px;
+                background-color: #fff;
+                border: 2px solid #d7d7d7;
+                color: #959595 !important;
+                text-align: center;
+            }
+        }
+
+        .slick-next {
+            &::before {
+                content: '\276F' !important;
+            }
+        }
+
+        .slick-prev {
+            &::before {
+                content: '\276E' !important;
+            }
+        }
+    }
+}

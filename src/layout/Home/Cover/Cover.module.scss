@@ -1,0 +1,121 @@
+.cover {
+    background-image: url(../../../assets/images/bookingcare-cover-4.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    // margin-top: 57px;
+
+    .custom {
+        color: #ffc419;
+        font-weight: 700;
+        font-size: 5rem;
+    }
+}
+
+.search {
+    height: 480px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(255, 255, 255, 0.1));
+    padding: 145px 0 45px;
+    color: #333;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .content {
+        h1 {
+            color: #fff;
+            font-size: 3.2rem;
+            line-height: 1.5;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            text-shadow: 1px 1px 1px #333;
+        }
+    }
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+
+    margin-left: auto;
+    margin-right: auto;
+    background: #f7d800;
+    color: #333;
+    outline: none;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    line-height: 50px;
+    width: 456px;
+    height: 50px;
+    padding-top: 1px;
+    padding-left: 50px;
+    padding-right: 25px;
+    position: relative;
+
+    .icon {
+        height: 100%;
+        top: 1px;
+        left: 25px;
+        transform: translateX(-50%);
+        position: absolute;
+    }
+
+    input {
+        background: transparent;
+        outline: none;
+        border: none;
+        width: 100%;
+    }
+}
+
+.navbar {
+    padding-left: 5px;
+    padding-right: 5px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1));
+    padding-top: 45px;
+    padding-bottom: 20px;
+    row-gap: 10px;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+        li {
+            min-width: 150px;
+            font-size: 1.6rem;
+            text-align: center;
+            padding: 5px 5px;
+            color: #333;
+            display: inline-block;
+            position: relative;
+            font-weight: bold;
+
+            div {
+                background: #fff;
+                border-radius: 50%;
+                box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+                width: 50px;
+                height: 50px;
+                margin: 2px auto;
+                background-size: 32px;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            p {
+                text-align: center;
+            }
+        }
+    }
+}

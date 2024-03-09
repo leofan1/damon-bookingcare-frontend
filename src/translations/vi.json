@@ -1,0 +1,77 @@
+{
+  "homeheader": {
+    "specialty": "Chuyên khoa",
+    "searchdoctor": "Tìm bác sĩ theo chuyên khoa",
+    "health-facility": "Cơ sở y tế",
+    "select-rom": "Chọn bệnh việc phòng khám",
+    "doctor": "Bác sĩ",
+    "select-doctor": "Chọn bác sĩ gỏi",
+    "fee": "Gói khám",
+    "check-health": "Khám sức khỏe tổng quát",
+    "support": "Hỗ trợ",
+    "welcome": "Xin chaof"
+  },
+
+  "homebody": {
+    "medical_basement": "NỀN TẢNG Y TẾ",
+    "full_health-care": "CHĂM SÓC KHỎE TOÀN DIỆN",
+    "search": "Tìm"
+  },
+
+  "banner": {
+    "title1": "Khám chuyên khoa",
+    "title2": "Khám từ xa",
+    "title3": "Khám tổng quát",
+    "title4": "Xét nghiệm y học",
+    "title5": "khám nha khoa"
+  },
+
+  "menu": {
+    "system": {
+      "header": "Hệ thống",
+      "system-administrator": {
+        "header": "Quản trị hệ thống",
+        "user-manage": "Quản lý người sử dụng",
+        "user-redux": "Quản lý user redux",
+        "register-package-group-or-account": "Đăng ký gói dịch vụ cho nhóm/tài khoản",
+        "product-manage": "Quản lý sản phẩm"
+      }
+    },
+    "admin": {
+      "manage-user": "Người dùng",
+      "manage-doctor": "Quản lý bác sĩ",
+      "manage-admin": "Quản lý admin",
+      "crud": "CRUD user",
+      "crud-redux": "CRUD redux",
+      "clinic": "Phòng khám",
+      "manage-clinic": "Quản lý phòng khám",
+      "specialty": "Chuyên khoa",
+      "manage-specialty": "Quản lý phòng khám",
+      "handbook": "Cẩm nang",
+      "manage-handbook": "Quản lý cẩm nang"
+    },
+    "doctor": {
+      "manage-schedule": "Quản lý kế hoạch bác sĩ"
+    },
+    "manage-user": {
+      "add": "Thêm mới người dùng",
+      "email": "Email",
+      "password": "Mật khẩu",
+      "first-name": "Tên",
+      "last-name": "Họ",
+      "address": "Địa chỉ",
+      "gender": "Giới tính",
+      "position": "Vị trí",
+      "role": "Vai trò",
+      "image": "Hình ảnh",
+      "save": "Lưu"
+    }
+  },
+
+  "manage-schedule": {
+    "title": "Quản lý kế hoạc khám bệnh của bác sĩ",
+    "choose-doctor": "Chọn bác sĩ",
+    "choose-date": "Chọn ngày",
+    "save-infor": "Lưu thông tin"
+  }
+}

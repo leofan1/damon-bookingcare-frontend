@@ -1,0 +1,100 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    height: 58px;
+    background-color: #45c3d2;
+    // background-color: rgba(119, 97, 209, 1);
+    box-shadow: 0px px 2px 0px #999;
+    border-bottom: none;
+
+    .container-custom {
+        display: flex;
+        align-items: center;
+
+        .logo {
+            height: 58px;
+            padding-left: 22px;
+            padding-right: 22px;
+            padding-top: 16px;
+            margin-right: 1px;
+            background-color: #f7d800;
+            color: rgba(52, 52, 52, 0.8);
+            font-size: 1.7rem;
+            cursor: pointer;
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        margin-bottom: 0;
+
+        li {
+            height: 58px;
+            line-height: 58px;
+            padding-left: 15px;
+            padding-right: 15px;
+            color: #fff;
+            font-weight: 600;
+            font-size: 1.5rem;
+
+            &:hover {
+                background-color: #f7d800;
+                color: rgba(52, 52, 52, 0.8);
+                cursor: pointer;
+            }
+        }
+
+        .doctor-navigate {
+            &:hover {
+                cursor: unset;
+            }
+        }
+    }
+}
+
+.doctor-tippy {
+    margin-top: -10px;
+    margin-left: -1px;
+    background-color: #eee;
+    border-left: 1px solid rgba(52, 52, 52, 0.1);
+    border-right: 1px solid rgba(52, 52, 52, 0.1);
+    border-bottom: 1px solid rgba(52, 52, 52, 0.1);
+
+    .tippy-child {
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 15px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #f7d800;
+        }
+    }
+
+    .tippy-child + .tippy-child {
+        border-top: 1px solid rgba(52, 52, 52, 0.1);
+    }
+}
+
+.log-out {
+    margin-left: auto;
+    padding: 10px;
+    color: #f7d800;
+    text-align: right;
+    font-weight: 900;
+    cursor: pointer;
+
+    &:hover {
+        opacity: 0.8;
+    }
+}

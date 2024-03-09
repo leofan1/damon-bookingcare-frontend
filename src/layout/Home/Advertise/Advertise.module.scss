@@ -1,0 +1,107 @@
+.advertise {
+    width: 100%;
+    background: #fff;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #efeef5;
+
+    .custom {
+        > ul {
+            position: relative;
+            display: flex;
+            list-style: none;
+            margin-left: -25px;
+            margin-right: -25px;
+            margin-bottom: 0;
+            > li {
+                width: 25%;
+                padding-left: 25px;
+                padding-right: 25px;
+
+                div {
+                    height: 140px;
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    border-radius: 5px;
+                }
+                h3 {
+                    margin-top: 15px;
+                    margin-bottom: 10px;
+                    font-weight: bold;
+                    font-size: 1.4rem;
+                }
+
+                ul {
+                    list-style: disc;
+                    position: relative;
+                    padding-left: 25px;
+                    font-size: 1.4rem;
+                    margin-bottom: 15px;
+                }
+
+                span {
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    font-size: 1.5rem;
+                    color: var(--mau-bc-16);
+
+                    // &:hover {
+                    //     opacity: 0.7;
+                    // }
+                }
+            }
+        }
+    }
+}
+
+.itemContainer {
+    padding-left: 25px;
+    padding-right: 25px;
+
+    .item {
+        border: 1px solid black;
+        height: 200px;
+    }
+}
+
+// ===== Slide =====
+
+.slide-container-custom {
+    // --gap: 10px;
+    height: 280px !important;
+
+    // margin-left: calc(var(--gap) * -1) !important;
+    // margin-right: calc(var(--gap) * -1) !important;
+    // padding-left: var(--gap) !important;
+    // padding-right: var(--gap) !important;
+    .slide-child-custom {
+        div {
+            border: 1px solid rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+    }
+}
+
+.slide-image-custom {
+    height: 50% !important;
+    border-radius: 5px;
+}
+
+.slide-text-custom {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-size: 1.4rem !important;
+}
+
+.slide-btnleft-custom {
+    display: none !important;
+}
+
+.slide-btnright-custom {
+    display: none !important;
+}

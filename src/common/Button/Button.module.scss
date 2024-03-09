@@ -1,0 +1,23 @@
+.bkc-btn {
+    display: inline-block;
+    background-color: #ebebeb;
+    padding: 10px 15px;
+    margin-top: 30px;
+    border: none;
+    font-size: 1.5rem;
+    color: #282e41;
+    &:hover {
+        cursor: pointer;
+        color: #fff;
+        background-color: #f7d800;
+    }
+}
+
+.primary {
+    color: #fff !important;
+    background-color: #007bff !important;
+
+    &:hover {
+        background-color: #0069d9 !important;
+    }
+}

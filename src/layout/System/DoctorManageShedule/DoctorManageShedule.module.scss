@@ -1,0 +1,65 @@
+.manage-schedule {
+    position: relative;
+    margin-top: 58px;
+    padding-top: 30px;
+    padding-bottom: 45px;
+}
+
+.custom {
+    h1 {
+        text-align: center;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    label {
+        margin-top: 25px;
+        margin-bottom: 5px;
+    }
+
+    > button {
+        margin-top: 5px;
+        width: 100%;
+        height: 37px;
+        font-size: 1.45rem;
+        &:focus {
+            border: none;
+            outline: none;
+        }
+    }
+}
+
+.manageShedule-datePicker {
+    margin-bottom: 35px;
+
+    input {
+        width: 100%;
+        height: 35px;
+        font-size: 1.4rem;
+        border: 1px solid hsl(0, 0%, 80%);
+        border-radius: 3px;
+        padding-left: 10px;
+    }
+}
+
+.time-picker {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 20px;
+    margin-bottom: 30px;
+}
+
+// === Picked time BTN ===
+
+.picked {
+    border: 2px solid #33b0e3 !important;
+}
+
+.btn-custom {
+    &:focus {
+        box-shadow: 0 0 0 0 transparent !important;
+        background-color: #007bff !important;
+    }
+}

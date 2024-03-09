@@ -1,0 +1,145 @@
+.doctor-introduce {
+    display: flex;
+}
+
+.doctor-detail {
+    margin-top: 77px;
+    padding-bottom: 30px;
+    border-bottom: 3px solid #efeef5;
+    .content-custom {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .breadcrum {
+        height: 31px;
+        line-height: 31px;
+        color: var(--mau-bc-16);
+        font-size: 1.3rem;
+        font-weight: 400;
+        span {
+            color: #ccc;
+            padding: 0 10px;
+        }
+    }
+
+    .doctor-introduce {
+        padding-top: 15px;
+        height: 150px;
+
+        --avatar-size: 120px;
+        --avatar-mgr: 25px;
+
+        .doctor-avatar {
+            width: var(--avatar-size);
+            height: var(--avatar-size);
+            margin-right: var(--avatar-mgr);
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 50%;
+                overflow: hidden;
+            }
+        }
+
+        .text {
+            width: calc(100% - var(--avatar-size) - var(--avatar-mgr));
+            h1 {
+                font-weight: 600;
+                font-size: 2.7rem;
+            }
+
+            div {
+                font-size: 1.3rem;
+            }
+        }
+    }
+
+    .date-select {
+        > select {
+            width: 160px;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            outline: none;
+            padding: 4px 0;
+            color: #337ab7;
+            border-radius: 0;
+            font-size: 1.45rem;
+            font-weight: 600;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .booking {
+        margin-top: 30px;
+        display: flex;
+    }
+}
+
+.free-booking {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20px;
+    font-size: 1.4rem;
+
+    .booking-hand-point {
+        position: relative;
+        display: inline-block;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 4px;
+
+        img {
+            width: 23px;
+        }
+    }
+
+    span {
+        display: inline-block;
+    }
+}
+
+// Background Section
+
+.doctor-background {
+    background: #f5f5f5;
+    padding: 15px 0;
+
+    .content-custom {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .background-detail {
+        height: 200px;
+    }
+
+    .background-content {
+        font-size: 1.45rem;
+        h2,
+        h3 {
+            font-weight: 900;
+            font-size: 1.6rem;
+        }
+
+        ul {
+            padding-left: 28px;
+            li {
+                font-size: 1.4rem;
+                line-height: 1.5;
+            }
+        }
+    }
+}
+
+.col-45-custom {
+    width: 100% !important;
+    padding-left: 20px;
+    border-left: 1px solid #ccc;
+}

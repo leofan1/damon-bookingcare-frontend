@@ -1,0 +1,148 @@
+.introduce {
+    margin-top: 77px;
+    background-size: cover;
+    background-position: center;
+    // height: 200px;
+    // overflow: hidden;
+    .introduce-custom {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 1));
+        padding-bottom: 10px;
+    }
+}
+
+.fixed-height {
+    height: 150px !important;
+    overflow: hidden;
+}
+
+.introduce-content {
+    line-height: 1.4;
+    padding-top: 28px;
+    overflow: hidden;
+
+    > h2 {
+        font-weight: 900;
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+    > p {
+        font-size: 1.4rem;
+    }
+    ul {
+        padding-left: 28px;
+        font-size: 1.4rem;
+    }
+}
+
+.toggle-btn {
+    padding-top: 5px;
+    button {
+        padding: 3px 3px 3px 0;
+        outline: none;
+        border: none;
+        background: none;
+        font-size: 1.4rem;
+        color: #288ad6;
+    }
+}
+
+.booking {
+    padding-top: 10px;
+    background-color: #eee;
+    .booking-custom {
+        .select {
+            width: 200px;
+        }
+    }
+}
+
+.doctor-booking {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.doctor-section {
+    display: flex;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+
+    box-shadow: 0 0 5px 1px rgba(32, 33, 26, 0.28);
+}
+
+.doctor-section + .doctor-section {
+    margin-top: 10px;
+}
+
+.doctor-introduce {
+    --avartar-size: 100px;
+    display: flex;
+    padding-top: 15px;
+    height: 150px;
+
+    .doctor-introduce-left {
+        margin-right: 10px;
+
+        .doctor-avatar {
+            width: var(--avartar-size);
+            height: var(--avartar-size);
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+                border-radius: 50%;
+                box-shadow: 0px 0px 1px 0 rgba(32, 33, 26, 0.2);
+                overflow: hidden;
+            }
+        }
+
+        .view-more {
+            margin-top: 5px;
+            padding: 5px;
+            text-align: center;
+            font-size: 1.5rem;
+            color: #45c3d2;
+
+            &:hover {
+                cursor: pointer;
+                opacity: 0.7;
+            }
+        }
+    }
+
+    .text {
+        position: relative;
+        width: calc(100% - var(--avartar-size));
+        padding-right: 10px;
+        border-right: 1px solid #eee;
+
+        h1 {
+            font-weight: 600;
+            font-size: 1.7rem;
+            color: #45c3d2;
+        }
+
+        div {
+            font-size: 1.45rem;
+
+            p {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.col-5-custom {
+    font-size: 1.4rem;
+    padding-right: 10px !important;
+    padding-top: 10px;
+    .doctor-booking {
+        width: 100% !important;
+    }
+}
+
+.booking-detail {
+    padding-top: 20px;
+    border-top: 2px solid #006e6f;
+}

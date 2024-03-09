@@ -1,0 +1,150 @@
+.date-select {
+    > select {
+        width: 160px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        outline: none;
+        padding: 4px 0;
+        color: #337ab7;
+        border-radius: 0;
+        font-size: 1.45rem;
+        font-weight: 600;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
+.date-schedule-time {
+    width: 100%;
+
+    .time-label {
+        display: flex;
+        text-align: center;
+        position: relative;
+        margin-top: 17px;
+        margin-bottom: 12px;
+        opacity: 0.8;
+
+        span,
+        p {
+            display: inline-block;
+            font-size: 1.4rem;
+        }
+
+        p {
+            margin-left: 7px;
+            font-weight: 600;
+            margin-bottom: 0;
+            padding-top: 1px;
+        }
+    }
+
+    .booking-time {
+        margin-right: -15px;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        column-gap: 10px;
+        row-gap: 10px;
+        font-style: italic;
+
+        button {
+            // background: #fff8ae;
+            // border-color: #fff8ae;
+            &:hover {
+                border-color: #33b0e3;
+            }
+        }
+    }
+
+    .booking-time-desc {
+        width: calc(100% - 16px);
+    }
+
+    .booking-detail {
+        margin-top: 76px;
+        padding-left: 40px;
+
+        .booking-detail-wrapper {
+            border-left: 1px solid #ccc;
+            padding-left: 24px;
+            font-size: 1.3rem;
+            line-height: 1.6;
+        }
+
+        .booking-detail-section {
+            h4 {
+                display: inline-block;
+            }
+
+            > p {
+                margin-bottom: 2px;
+            }
+
+            .view-detail {
+                padding: 5px;
+                color: var(--mau-bc-16);
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+            .hide-detail {
+                color: var(--mau-bc-16);
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .pdb-14 {
+            padding-bottom: 4px;
+        }
+
+        .booking-detail-section + .booking-detail-section {
+            padding-top: 14px;
+            border-top: 1px solid #ccc;
+        }
+    }
+}
+
+.free-booking {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 12px;
+    font-size: 1.4rem;
+
+    .booking-hand-point {
+        position: relative;
+        display: inline-block;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-bottom: 4px;
+
+        img {
+            width: 23px;
+        }
+    }
+
+    span {
+        display: inline-block;
+    }
+}
+
+.admin-manage-schedule {
+    margin-bottom: 20px;
+    button {
+        font-size: 1.4rem;
+        border: none;
+        background-color: white;
+        opacity: 0.5;
+        font-weight: 600;
+        font-style: italic;
+        &:hover {
+            color: #45c3d2;
+        }
+    }
+}
